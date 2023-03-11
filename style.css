@@ -1,0 +1,221 @@
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+html body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    width: 90%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: 90%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+    display: flex;
+    padding: 10px 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stunninglogo .stunningimage{
+    width: 150px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.homeabout{
+    padding: 10px;
+    margin: 15px;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+}
+
+.homeabout:hover{
+    font-weight: 400;
+    text-decoration: underline 3px;
+    text-decoration-color: #8071D0;
+    cursor: pointer;
+}
+
+.YourAccount{
+    padding: 20px 30px;
+    font-size: 18px;
+    background-color: #FFD8DB;
+    color:  #A389CC;
+    font-weight: bolder;
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+#landingimage{
+    width: 90%;
+    height: 600px;
+    text-align: right;
+}
+
+#image{
+    text-align: right;
+}
+
+#workspace{
+    margin-bottom: 10px;
+}
+
+#description{
+    margin-bottom: 20px;
+}
+#content{
+    padding-left: 100px;
+    margin-left: 50px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+#workspace{
+    font-size: 60px;
+    font-weight: 1000;
+}
+
+#description{
+    color: rgb(0, 0, 0, 0.5);
+}
+
+.NewAccount{
+    padding: 20px 30px;
+    font-size: 10px;
+    background-color: #5243C0;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-bottom: 40px;
+    text-align: center;
+    margin: 20px 40px;
+    height: 60px;
+}
+
+#fullstop{
+    color: #8071D0;
+}
+
+
+#arrows{
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+    margin-top: 30px;
+}
+
+#newaccountarrow{
+    height: 20px;
+    display: flex;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+#cards{
+    box-sizing: border-box;
+    padding-top: 10px;
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(129, 128, 128, 0.05);
+    margin-bottom: 15px;
+}
+
+#cardcontainer{
+    margin-top: 40px;
+}
+
+.cardcontent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.date{
+    color: rgb(0, 0, 0, 0.5);
+}
+
+.illname{
+    padding-right: 20px;
+}
+
+.refundname{
+    padding-right: 30px;
+}
+
+#pinkbutton{
+    margin-bottom: 10px;
+    font-size: 5px;
+    color: #FED7DA;
+    background-color: #FED7DA;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#redbutton{
+    margin-bottom: 10px;
+    font-size: 5px;
+    color: #FD6534;
+    background-color: #FD6534;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#greenbutton{
+    margin-bottom: 10px;
+    font-size: 5px;
+    color: #9ED095;
+    background-color: #9ED095;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#yellowbutton{
+    margin-bottom: 10px;
+    font-size: 5px;
+    color: #FFE4A0;
+    background-color: #FFE4A0;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+table{
+    width: 100%;
+}
+
+.bluetick{
+    display: none;
+}
+
+.cardcontent:hover .bluetick{
+    display: block;
+    position: relative;
+    right: 40px;
+}
+
+.cardcontent:hover .tick{
+    display: none;
+    }
+
+.cardcontent:hover{
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
